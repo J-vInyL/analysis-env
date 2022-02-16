@@ -1,0 +1,28 @@
+{
+  "name": "electron-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@ckeditor/ckeditor5-theme-lark": "^32.0.0",
+    "async": "^3.2.3",
+    "body-parser": "^1.19.1",
+    "cors": "^2.8.5",
+    "ejs": "^3.1.6",
+    "express": "^4.17.2",
+    "http": "^0.0.1-security",
+    "moment-timezone": "^0.5.34",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.15",
+    "socket.io": "^4.4.1",
+    "ws": "^8.4.2",
+    "yup": "^0.32.11"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "nodemon server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
